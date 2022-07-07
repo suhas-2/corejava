@@ -1,9 +1,12 @@
-class Stadium{
+public class StadiumDTO{
     
 	private String name;
 	private int id;
 	private int capacity;
 	private String location;
+	
+	public StadiumDTO(){
+	}
 	
 	public String getName(){
 	

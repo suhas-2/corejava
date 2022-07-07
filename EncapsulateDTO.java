@@ -1,4 +1,4 @@
-class Encapsulate {
+class EncapsulateDTO {
     // private variables declared
     // these can only be accessed by
     // public methods of class

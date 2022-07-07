@@ -2,7 +2,7 @@ public class AirportTester{
 
    public static void main(String a[]){
    
-         Airport air = new Airport();
+         AirportDTO air = new AirportDTO();
 		 
 		 air.setId(23);
 		 air.setName("Delhi airport");

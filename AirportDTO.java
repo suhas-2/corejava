@@ -1,8 +1,11 @@
-class Airport{
+public class AirportDTO{
 
       private int id;
 	  private String name;
 	  private long contactNo;
+	  
+	  public AirportDTO(){
+	  }
 	  
 	  public int getId(){
 	     return id;

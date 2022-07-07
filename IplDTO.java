@@ -1,6 +1,6 @@
-   public class IPL{
+   public class IplDTO{
 
-  public IPL(){
+  public IplDTO(){
    System.out.println("IPL Object is Created");
     }
     private String host;

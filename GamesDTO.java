@@ -1,8 +1,12 @@
-class Games{
+public class GamesDTO{
 
    private String name;
    private int noOfPlayers;
    private int points;
+   
+public GamesDTO(){
+}
+	  
    
    public String getName(){
     return name;

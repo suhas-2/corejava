@@ -2,7 +2,7 @@ public class StadiumTester{
 
      public static void main(String a[]){
 	 
-	    Stadium std = new Stadium();
+	    StadiumDTO std = new StadiumDTO();
 		
 		 std.setName("kantirava");
 		 std.setId(1970);
