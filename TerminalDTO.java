@@ -1,4 +1,4 @@
-class TerminalDTO{
+public class TerminalDTO {
 
      private int id;
 	 private String name;
@@ -43,7 +43,4 @@ class TerminalDTO{
 	    this.noOfCheckIncounters = noOfCheckIncounters;
 	 }
 	
-
-
-
 }

@@ -1,14 +1,14 @@
-import java.util.Scanner;
+import java.util.Scanner ;
 
-class Airport1Tester{
-	
-	   public static void main(String a[]){
+class AirportTester{
+
+      public static void main(String a[]){
 	     
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("Enter the Number of terminals");
 		 int size = sc.nextInt();
 		 
-		 Airport1 airport = new Airport1(size);
+		 Airport airport = new Airport(size);
 		 
 		for(int i=0; i<size;i++) {
 			
@@ -37,8 +37,12 @@ class Airport1Tester{
 		 }
 		 
 		 airport.getTerminalDetails();
-	  
+	     System.out.println("Enter the Existing id for the Name has to be updated");
+	     int existingId = sc.nextInt();
+	     System.out.println("Enter the Name to be updated");
+	     String updateName = sc.nextLine();
+	     lib.updateTerminalNameById(existingId, "NOVEL");    //invoking updateBookNameById method
+	     lib.getTerminalsDetails();
 	  }
-
 
 }
